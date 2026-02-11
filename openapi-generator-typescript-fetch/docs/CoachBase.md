@@ -1,0 +1,47 @@
+
+# CoachBase
+
+A coach or coaching staff member.
+
+## Properties
+
+Name | Type
+------------ | -------------
+`certifications` | Array&lt;string&gt;
+`characterId` | string
+`memberType` | string
+`specialty` | [CoachSpecialty](CoachSpecialty.md)
+`teamId` | string
+`winRate` | number
+`yearsWithTeam` | number
+
+## Example
+
+```typescript
+import type { CoachBase } from ''
+
+// TODO: Update the object below with actual values
+const example = {
+  "certifications": [UEFA Pro License, FA Level 4],
+  "characterId": jamie-tartt,
+  "memberType": null,
+  "specialty": null,
+  "teamId": afc-richmond,
+  "winRate": null,
+  "yearsWithTeam": 3,
+} satisfies CoachBase
+
+console.log(example)
+
+// Convert the instance to a JSON string
+const exampleJSON: string = JSON.stringify(example)
+console.log(exampleJSON)
+
+// Parse the JSON string back to an object
+const exampleParsed = JSON.parse(exampleJSON) as CoachBase
+console.log(exampleParsed)
+```
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
+
+

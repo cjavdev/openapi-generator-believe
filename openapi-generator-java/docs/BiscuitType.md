@@ -1,0 +1,17 @@
+
+
+# BiscuitType
+
+## Enum
+
+
+* `CLASSIC` (value: `"classic"`)
+
+* `SHORTBREAD` (value: `"shortbread"`)
+
+* `CHOCOLATE_CHIP` (value: `"chocolate_chip"`)
+
+* `OATMEAL_RAISIN` (value: `"oatmeal_raisin"`)
+
+
+
